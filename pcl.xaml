@@ -10,15 +10,15 @@
     <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
         <TextBlock Margin="0,0,0,4" Foreground="#000" HorizontalAlignment="Center" FontSize="25"
                    Text="Java端" />
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            <local:MyButton Margin="0,0,10,10" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="进入生电服" EventType="启动游戏" EventData="RainbowTown - Fabric|fabric.rainbowtown.top" ToolTip="进入服务器" />
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            <local:MyButton Margin="0,0,10,10" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="进入生存服" EventType="启动游戏" EventData="RainbowTown - Survival|survival.rainbowtown.top" ToolTip="进入服务器" />
 	    </StackPanel>
-	 <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
+	 <StackPanel Margin="25,160,23,15" HorizontalAlignment="Center">
         <TextBlock Margin="0,0,0,4" Foreground="#000" HorizontalAlignment="Center" FontSize="25"
                    Text="基岩版端" />
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+            <local:MyButton Margin="0,0,10,0" Width="200" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="启动基岩版 | 添加服务器" EventType="打开网页" EventData="https://survival.rainbowtown.top/link/open" ToolTip="添加服务器" />
     </StackPanel>
 </local:MyCard>
@@ -56,7 +56,7 @@
 
 <local:MyCard Title="服务器公告" Margin="0,0,0,15" IsSwaped="True">
     <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
-        <local:MyHint IsWarn="true"
+        <local:MyHint Width="400" Height="55" IsWarn="true"
 		Text="本服务器禁止高频红石&#xA;禁止熊孩子" />
         <local:MyHint Margin="0,8,0,2" IsWarn="false"
                    Text="具体公告可到：官网查看" />
