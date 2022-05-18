@@ -8,7 +8,7 @@
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="Java | 进入生存服" EventType="启动游戏" EventData="RainbowTown - Survival|survival.rainbowtown.top" ToolTip="进入服务器" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="基岩版 | 进入生存服" EventType="打开网页" EventData="minecraft://?addExternalServer=RainbowTown-Survival|mc.survival.rainbowtown.top:21071" ToolTip="进入服务器" />
+                   Text="基岩版 | 进入生存服" EventType="打开文件" EventData="minecraft://?addExternalServer=RainbowTown-Survival|mc.survival.rainbowtown.top:21071" ToolTip="进入服务器" />
 	</StackPanel>
 </StackPanel>
 </local:MyCard>
