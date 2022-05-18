@@ -19,7 +19,7 @@
         <!-- 这是第一行 -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
-                   Text="作者B站主页" EventType="打开网页" EventData="https://space.bilibili.com/382250802/" />
+                   Text="作者B站主页" EventType="打开网页" EventData="https://space.bilibili.com/382250802/" ToolTip="前往B站" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="进入生电服" EventType="启动游戏" EventData="RainbowTown - Fabric|fabric.rainbowtown.top" ToolTip="进入服务器" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
@@ -27,9 +27,9 @@
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开生电服官网" EventType="打开网页" EventData="http://fabric.rainbowtown.top/"/>
+                   Text="打开生电服官网" EventType="打开网页" EventData="http://fabric.rainbowtown.top/" ToolTip="前往生电服官网"/>
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开生存服官网" EventType="打开网页" EventData="http://survival.rainbowtown.top/"/>
+                   Text="打开生存服官网" EventType="打开网页" EventData="http://survival.rainbowtown.top/" ToolTip="前往生存服官网"/>
             </StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
