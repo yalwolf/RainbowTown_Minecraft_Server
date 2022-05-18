@@ -5,14 +5,18 @@
                    Text="更新本页" EventType="刷新主页" ToolTip="这通常用来刷新联网主页" />
      </StackPanel>
 </StackPanel>
-<local:MyCard Title="Java版 - 服务器设置" Margin="0,0,0,15" IsSwaped="True">
+<local:MyCard Title="服务器直通车" Margin="0,0,0,15" IsSwaped="True">
     <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
+        <TextBlock Margin="0,0,0,4" Foreground="#000" HorizontalAlignment="Center" FontSize="25"
+                   Text="Java端" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="进入生电服" EventType="启动游戏" EventData="RainbowTown - Fabric|fabric.rainbowtown.top" ToolTip="进入服务器" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text=" | 进入生存服" EventType="启动游戏" EventData="RainbowTown - Survival|survival.rainbowtown.top" ToolTip="进入服务器" />
+                   Text="进入生存服" EventType="启动游戏" EventData="RainbowTown - Survival|survival.rainbowtown.top" ToolTip="进入服务器" />
 	    </StackPanel>
-	 <StackPanel Margin="25,40,23,15" Title="基岩版 - 服务器设置" HorizontalAlignment="Center">
+	 <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
+        <TextBlock Margin="0,0,0,4" Foreground="#000" HorizontalAlignment="Center" FontSize="25"
+                   Text="基岩版端" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="启动基岩版 | 添加服务器" EventType="打开网页" EventData="https://survival.rainbowtown.top/link/open" ToolTip="添加服务器" />
     </StackPanel>
