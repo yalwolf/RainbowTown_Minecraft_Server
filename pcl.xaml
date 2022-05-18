@@ -44,11 +44,8 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="公告" EventType="打开窗口" EventData="1 | https://www.rainbowtown.top/" Margin="0,0,0,15">
-</local:MyCard>
-
 <local:MyCard Title="服务器公告" Margin="0,0,0,15" IsSwaped="True">
-    <StackPanel Margin="25,40,23,15">
+    <StackPanel Margin="25,40,23,15" HorizontalAlignment="Center">
         <local:MyHint IsWarn="true"
 		Text="本服务器禁止高频红石&#xA;禁止熊孩子" />
         <local:MyHint Margin="0,8,0,2" IsWarn="false"
