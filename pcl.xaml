@@ -27,9 +27,9 @@
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开生电服官网" EventType="打开网页" EventData="https://fabric.rainbowtown.top/"/>
+                   Text="打开生电服官网" EventType="打开网页" EventData="http://fabric.rainbowtown.top/"/>
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="打开生存服官网" EventType="打开网页" EventData="https://survival.rainbowtown.top/"/>
+                   Text="打开生存服官网" EventType="打开网页" EventData="http://survival.rainbowtown.top/"/>
             </StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
