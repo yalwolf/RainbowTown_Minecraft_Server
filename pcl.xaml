@@ -45,7 +45,7 @@
 </local:MyCard>
 
 <local:MyCard Title="公告" EventType="打开窗口" EventData="1 | https://www.rainbowtown.top/" Margin="0,0,0,15">
-</StackPanel>
+</local:MyCard>
 
 <local:MyCard Title="服务器公告" Margin="0,0,0,15" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
