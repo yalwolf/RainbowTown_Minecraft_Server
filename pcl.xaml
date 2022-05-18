@@ -11,7 +11,7 @@
         <TextBlock Margin="0,0,0,4" Foreground="#000" HorizontalAlignment="Center" FontSize="25"
                    Text="本服务器为RS彩虹君与一只阿狼哒联合制作" />
         <TextBlock Margin="0,0,0,6" Foreground="#8C7721" HorizontalAlignment="Center" FontSize="18"	
-                   Text="该服务器为1.18.2生电服 和 1.7.10~1.18.2与基岩版互通的生存服" />
+                   Text="该服务器为1.18.2生电服 和 1.12.2~1.18.2与基岩版(1.18.x)互通的生存服" />
         <TextBlock Margin="0,0,0,6" Foreground="#8C7721" HorizontalAlignment="Center" FontSize="18"	
                    Text="其中生电服由RS彩虹君运营，生存服由一只阿狼哒运营" />
     </StackPanel>
