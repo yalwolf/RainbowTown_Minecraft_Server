@@ -1,8 +1,15 @@
+</local:MyCard>
 <local:MyCard Title="系统设置" Margin="0,0,0,15">
   <StackPanel Margin="25,20,23,15">
     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="left" Padding="13,0,13,0"
                    Text="更新本页" EventType="刷新主页" ToolTip="这通常用来刷新联网主页" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="进入生电服" EventType="启动游戏" EventData="RainbowTown - Fabric|fabric.rainbowtown.top" ToolTip="进入服务器" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="Java | 进入生存服" EventType="启动游戏" EventData="RainbowTown - Survival|survival.rainbowtown.top" ToolTip="进入服务器" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="基岩版 | 进入生存服" EventType="打开网页" EventData="minecraft://?addExternalServer=RainbowTown-Survival|mc.survival.rainbowtown.top:21071" ToolTip="进入服务器" />
 	</StackPanel>
 </StackPanel>
 </local:MyCard>
@@ -16,14 +23,10 @@
                    Text="其中生电服由RS彩虹君运营，生存服由一只阿狼哒运营" />
     </StackPanel>
     <StackPanel Margin="25,140,23,15">
-        <!-- 这是第一行 -->
+
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="作者B站主页" EventType="打开网页" EventData="https://space.bilibili.com/382250802/" ToolTip="前往B站" />
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="进入生电服" EventType="启动游戏" EventData="RainbowTown - Fabric|fabric.rainbowtown.top" ToolTip="进入服务器" />
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="进入生存服" EventType="启动游戏" EventData="RainbowTown - Survival|mc.survival.rainbowtown.top:21071" ToolTip="进入服务器" />
 			</StackPanel>
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
@@ -31,7 +34,7 @@
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开生存服官网" EventType="打开网页" EventData="http://survival.rainbowtown.top/" ToolTip="前往生存服官网"/>
             </StackPanel>
-			<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+	        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="打开官网" EventType="打开网页" EventData="https://www.rainbowtown.top/"/>
 			<local:MyButton Margin="0,5,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
@@ -41,13 +44,15 @@
         </StackPanel>
     </StackPanel>
 </local:MyCard>
-    
+
+<local:MyCard Title="公告" EventType="打开窗口" EventData="1 | https://www.rainbowtown.top/" Margin="0,0,0,15">
+</StackPanel>
+
 <local:MyCard Title="服务器公告" Margin="0,0,0,15" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <local:MyHint IsWarn="true"
 		Text="本服务器禁止高频红石&#xA;禁止熊孩子" />
         <local:MyHint Margin="0,8,0,2" IsWarn="false"
                    Text="具体公告可到：官网查看" />
-
     </StackPanel>
 </local:MyCard>
